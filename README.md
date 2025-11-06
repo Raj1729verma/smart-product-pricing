@@ -44,7 +44,7 @@ Core Innovation: Log-transformed target regression with automated Optuna-based h
 
 The following diagram illustrates the complete data flow of the product price prediction pipeline — from raw data ingestion to final model output.
 
-mermaid
+```mermaid
 flowchart LR
 
     A[Raw Product Data]
@@ -68,7 +68,7 @@ flowchart LR
     E --> F[Prediction]
     F --> F1[Inverse Log-Transform → Final Price]
 
-
+```
 
 ### 3.2 Model Components
 
@@ -113,7 +113,7 @@ Our solution effectively models complex non-linear dependencies between product 
 
 Code Directory Structure:
 
-mermaid
+```mermaid
 
 flowchart LR
 
@@ -138,7 +138,7 @@ flowchart LR
 
     A --> F[📘 README.md]
 
-
+```
 
 
 ---
